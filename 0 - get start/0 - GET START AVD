@@ -1,0 +1,33 @@
+ESSE MODO E PARA CRIAR E RODAR O PROJETO NA AVD DO ANDROID STUDIO
+=========================================================================
+- instale o node js
+- instale android studo e abra pra carregar as configurações e baixar o resto dos arquivos necessario
+
+- verifique se gerenciador de pacote choco esta sintalado ou instale
+https://chocolatey.org/
+
+- com o choco pronto use pra instalar node js e jdk
+choco install -y nodejs.install openjdk8
+
+- adicionar variavel de ambiente do windows
+Nome: ANDROID_HOME
+Valor: C:\Users\DEJOTA\AppData\Local\Android\Sdk
+
+- adicionar ao Path do windows nas variaveis de ambiente
+Path: C:\Users\DEJOTA\AppData\Local\Android\Sdk\platform-tools
+
+=========CRIAR PROJETO==================================================
+
+- criar projeto
+npx react-native init NomeProjecto
+
+- criar projeto com TypeScript
+npx react-native init NomeProjetoTypeScript --template react-native-template-typescript
+
+- iniciar um novo projeto com uma versão específica do React Native
+npx react-native init NomeProjecto --version X.XX.X
+
+========INICIAR PROJETO===============================================
+- Iniciar projeto necessita dos dois comandos rodando em abas diferentes do CMD
+npx react-native start
+npx react-native run-android

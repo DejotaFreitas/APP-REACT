@@ -1,0 +1,17 @@
+ESSE MODO E PARA CRIAR E RODAR O PROJETO NO CELULAR FISICO ATRAVEZ DA REDE
+=======CRIAR PROJETO==================================================================
+- criar projeto
+expo init NomeProjetoExpo
+
+=======INICIAR PROJETO===============================================================
+- INICIA PARA iOS, Android e Web
+npm start
+
+- INICIA PARA Android
+npm run android
+
+- INICIA PARA iOS
+npm run ios
+
+- INICIA Web
+npm run web
